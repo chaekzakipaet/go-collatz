@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, world!")
+	n := 23
+	fmt.Println(n)
+	n = n*3 + 1
+	fmt.Println(n)
+	n = n / 2
+	fmt.Println(n)
 }
